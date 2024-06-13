@@ -1,0 +1,183 @@
+body{
+    background: url(/BGIMG.jpg);
+    background-size: 1520px 710px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    
+}
+
+nav{
+    display: contents;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+}
+nav .img img{
+    width: 17%;
+    margin-top: -20px;
+    margin-left: 10%;
+}
+nav .btn{
+    display: flex;
+    margin-top: 22px;
+    margin-right: 10%;
+}
+.btn .eng{
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    margin-right: 33px;
+    cursor: pointer;
+    
+}
+
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(214, 22, 22);
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    border: none; 
+}
+.btn .sign a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn .eng{
+    margin-inline: 22px;
+}
+
+.main{
+    text-align: center;
+}
+
+.main h1{
+    font-size: 60px;
+}
+
+.main h3{
+    font-size: 44px;
+}
+.main p{
+    font-size: 27px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 22px;
+}
+.input input:hover{
+    background-color:transparent;
+    
+    border: none;
+    color: white;
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(186, 24, 24);
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+.input button:hover{
+    background-color: #550808;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    padding: 70px;
+    border-bottom: 4px solid gray;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 28px;
+}
+.first img{
+    width: 44%; 
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+
+}
+.buttons button{
+    width: 600px;
+    height: 60px;
+    background-color:gray;
+    color: white;
+    font-size: 25px;
+    margin-left: 30%;
+    text-align: left;
+}
+.buttons p{
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    font-size:xx-large;
+}
+
+.btn3{
+    display: flex;
+    justify-content: center;
+}
+.btn3 input{
+    width: 400px;
+    height: 55px;
+    border: none;
+    font-size: 22px;
+}
+.btn3 input:hover{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.btn3 button{
+    width: 200px;
+    height: 55px;
+    background-color: #d22020;
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+.btn3 button:hover{
+    background-color: #7c0808;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border: 4px solid grey;
+    margin-top: 53px;
+}
+
+.footer p:hover{
+    color: yellow;
+}
